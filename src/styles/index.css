@@ -1,3 +1,13 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+  background-color: var(--black-ds);
+}
+
 :root{
   --black-ds : #262B31; 
   --red-ds : #ED5858; 
@@ -6,5 +16,15 @@
 
 .background-black-ds{
   background: var(--black-ds);
+}
+
+.color-red-ds{
+  color: var(--red-ds);
+}
+
+.flex-center-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 

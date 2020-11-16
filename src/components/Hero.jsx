@@ -2,18 +2,15 @@ import React from "react"
 import './Hero.scss'
 
 const Hero = () => (
-  <div className="hero-container py-12 lg:pb-16">
-    <h2 className="text-3xl sm:text-4xl font-extrabold leading-tight tracking-tight text-gray-900">
-      Hello, I'm John{" "}
-      <span role="img" aria-label="waving hand">
-        👋
-      </span>
-      <br />
-      <span className="text-blue-600">
-        Welcome to my photography portfolio.
-      </span>
-    </h2>
-  </div>
-)  
+  <section className="hero-container flex-center-center">
+    <section className='hero-content absolute text-center'>
+      <h1 className='text-2xl text-white'>StreetCrown | Professional Auto Detailer</h1>
+      <h2 className='text-6xl text-white'>Shiny inside Shiny outside </h2>
+    </section>
+    {/* <button className=''>Book Now</button> */}
+    <img alt="Logo" className="hero-image" src="hero-background-compressed.jpg" />
+  </section>
+)
+
 
 export default Hero
