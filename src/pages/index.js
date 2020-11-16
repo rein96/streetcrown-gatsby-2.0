@@ -5,6 +5,7 @@ import Hero from "../components/Hero"
 import Layout from "../layouts/Layout"
 import Newsletter from "../components/Newsletter"
 import SiteMetadata from "../components/SiteMetadata"
+import '../styles/index.css'
 
 const IndexPage = ({ data }) => {
   return (

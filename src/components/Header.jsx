@@ -20,12 +20,14 @@ const Header = () => {
   `)
 
   return (
-    <div className="container pt-6 pb-12 md:pt-12">
-      <div className="flex justify-between items-center">
+    <header className="header container pt-6 pb-12 md:pt-12">
+      <nav className="flex justify-between items-center">
+        {/* Logo */}
         <Link to="/">
           <img alt="Logo" className="w-24 md:w-32" src="logo.svg" />
         </Link>
 
+        {/* Hamburger menu */}
         <button
           className="sm:hidden"
           onClick={() => setIsMenuOpen(true)}
@@ -33,7 +35,8 @@ const Header = () => {
         >
           <FaBars className="h-6 w-auto text-gray-900 fill-current -mt-1" />
         </button>
-
+        
+        {/* Nav menu on tab and pc resolution */}
         <div className="hidden sm:block">
           {site.data.menu.map((link, key) => (
             <Link
@@ -46,13 +49,13 @@ const Header = () => {
             </Link>
           ))}
         </div>
-      </div>
+      </nav>
       <MenuMobile
         isOpen={isMenuOpen}
         setIsOpen={setIsMenuOpen}
         links={site.data.menu}
       />
-    </div>
+    </header>
   )
 }
 
