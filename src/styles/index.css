@@ -3,3 +3,8 @@
   --red-ds : #ED5858; 
   --grey-ds : #E8E8E8; 
 }
+
+.background-black-ds{
+  background: var(--black-ds);
+}
+
