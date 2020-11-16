@@ -20,7 +20,7 @@ const Header = () => {
   `)
 
   return (
-    <header className="header container pt-6 pb-12 md:pt-3 md:pb-3 fixed top-0 z-10 background-black-ds shadow-md">
+    <header className="header p-3 w-full fixed top-0 z-10 background-black-ds shadow-md">
       <nav className="flex justify-between items-center">
         {/* Logo */}
         <Link to="/">
