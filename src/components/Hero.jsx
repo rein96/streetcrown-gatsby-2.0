@@ -1,7 +1,8 @@
 import React from "react"
+import './Hero.scss'
 
 const Hero = () => (
-  <div className="container py-12 lg:pb-16">
+  <div className="hero-container py-12 lg:pb-16">
     <h2 className="text-3xl sm:text-4xl font-extrabold leading-tight tracking-tight text-gray-900">
       Hello, I'm John{" "}
       <span role="img" aria-label="waving hand">
@@ -13,6 +14,6 @@ const Hero = () => (
       </span>
     </h2>
   </div>
-)
+)  
 
 export default Hero
