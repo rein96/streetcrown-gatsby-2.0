@@ -8,7 +8,8 @@ const Hero = () => (
       <h2 className='text-6xl text-white'>Shiny inside Shiny outside </h2>
     </section>
     {/* <button className=''>Book Now</button> */}
-    <img alt="Logo" className="hero-image" src="hero-background-compressed.jpg" />
+    <img alt="Logo" className="hero-image hero-portrait" src="hero-portrait.jpg" />
+    <img alt="Logo" className="hero-image hero-landscape" src="hero-background-compressed.jpg" />
   </section>
 )
 
