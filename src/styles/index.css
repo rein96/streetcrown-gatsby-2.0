@@ -18,6 +18,10 @@ body{
   background: var(--black-ds);
 }
 
+.background-red-ds{
+  background: var(--red-ds);
+}
+
 .color-red-ds{
   color: var(--red-ds);
 }
@@ -26,5 +30,39 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.btnStyle {
+  /* margin: 0; */
+  padding: 0;
+  border-width: 0;
+  border-color: transparent;
+  /* background: transparent; */
+  cursor: pointer;
+  position: relative;
+  outline: none;
+}
+
+.btn-float {
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  -webkit-transition: all 0.5s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.5s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+
+.btn-float:hover,
+.btn-float:focus {
+  color: #fff;
+  -webkit-transform: translateY(-7px);
+  transform: translateY(-7px);
+  box-shadow: 5px 7px 10px rgba(0,0,0,0.37);
+}
+
+.btn-md {
+  font-size: 17px;
+  /* font-weight: lighter; */
+  font-weight: 600;
+  padding: 12px 22px;
 }
 

@@ -2,7 +2,7 @@ import React from "react"
 import './Hero.scss'
 
 const Hero = () => (
-  <section className="hero-container flex-center-center">
+  <section className="hero-container relative flex-center-center">
     <section className='hero-content absolute text-center font-semibold text-white'>
       <h1 className='text-2xl'>
         <span className='color-red-ds'>StreetCrown</span> | Professional Auto Detailer
@@ -10,8 +10,8 @@ const Hero = () => (
       <h2 className='text-6xl'>
         <span className='color-red-ds'>Shiny</span> inside <span className='color-red-ds'>Shiny</span> outside
       </h2>
+      <button className='absolute btnStyle btn-float btn-md background-red-ds mt-8'>Book Now</button>
     </section>
-    {/* <button className=''>Book Now</button> */}
     <img alt="Logo" className="hero-image hero-portrait" src="hero-portrait.jpg" />
     <img alt="Logo" className="hero-image hero-landscape" src="hero-background-compressed.jpg" />
   </section>
