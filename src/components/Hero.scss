@@ -20,6 +20,9 @@
 
   .hero-landscape{
     display: none;
+    height: 76vh;
+    object-fit: cover;
+    width: 100vw;
 
     @media (min-width: 640px) {
       display: block;
