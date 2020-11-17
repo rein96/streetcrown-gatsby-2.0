@@ -2,6 +2,7 @@ import { graphql, Link, useStaticQuery } from "gatsby"
 import React, { useState } from "react"
 import MenuMobile from "./MenuMobile"
 import { FaBars } from "react-icons/fa"
+import './Header.scss'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -25,6 +26,10 @@ const Header = () => {
         {/* Logo */}
         <Link to="/">
           <img alt="Logo" className="w-24 md:w-32" src="streetcrownLogo.png" />
+        </Link>
+
+        <Link to='/'>
+          <span className='streetcrown-title-navbar sm:hidden text-white text-lg'>StreetCrown</span>
         </Link>
 
         {/* Hamburger menu */}
