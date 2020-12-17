@@ -11,10 +11,9 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SiteMetadata title="Home" description="Portfolio of John Doe" />
-
       <Hero />
-
-      <div className="bg-gray-100 py-12 lg:py-16">
+      <div className="cards-container bg-gray-100">
+        <h3 className='relative text-center text-white text-xl'>Our <span className='color-red-ds'>Services</span></h3>
         {data.portfolio && data.portfolio.nodes.length > 0 ? (
           <Cards items={data.portfolio.nodes} />
         ) : (
