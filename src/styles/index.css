@@ -69,3 +69,16 @@ body{
 .cards-container{
   margin-top: -160px;
 }
+
+/* MARGINS */
+.mt-20{
+  margin-top: 20px;
+}
+
+.mb-20{
+  margin-bottom: 20px;
+}
+
+.letter-spacing-1px{
+  letter-spacing: 1px;
+}

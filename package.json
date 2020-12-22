@@ -5,6 +5,7 @@
   "author": "Wojciech Kocjan <wojciech@kocjan.net>",
   "dependencies": {
     "autoprefixer": "^9.7.6",
+    "beerslider": "^1.0.3",
     "classnames": "^2.2.6",
     "dotenv": "^8.2.0",
     "framer-motion": "^1.10.3",
@@ -33,6 +34,7 @@
   "devDependencies": {
     "chalk": "^3.0.0",
     "contentful-import": "^7.7.13",
+    "gatsby-plugin-root-import": "^2.0.5",
     "inquirer": "^7.1.0",
     "prettier": "^1.19.1"
   },

@@ -29,6 +29,7 @@ module.exports = {
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    'gatsby-plugin-root-import',
     {
       resolve: `gatsby-source-contentful`,
       options: {
