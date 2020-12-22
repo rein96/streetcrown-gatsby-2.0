@@ -6,6 +6,8 @@ import Layout from "../layouts/Layout"
 import Newsletter from "../components/Newsletter"
 import SiteMetadata from "../components/SiteMetadata"
 import BeforeAfter from 'src/components/Home/BeforeAfter.js';
+import SectionTitle from 'src/components/shared/SectionTitle.js'
+import Workshops from 'src/components/Home/Workshops.js'
 import '../styles/index.css'
 
 const IndexPage = ({ data }) => {
@@ -14,14 +16,15 @@ const IndexPage = ({ data }) => {
       <SiteMetadata title="Home" description="Portfolio of John Doe" />
       <Hero />
       <div className="cards-container">
-        <h3 className='relative text-center text-white text-xl font-medium'>Our <span className='color-red-ds'>Services</span></h3>
+        <SectionTitle firstWords={'Our'} secondWords={'Services'} />
         {data.portfolio && data.portfolio.nodes.length > 0 ? (
           <Cards items={data.portfolio.nodes} />
         ) : (
-          <div className="container">No projects found.</div>
-        )}
+            <div className="container">No projects found.</div>
+          )}
       </div>
       <BeforeAfter />
+      <Workshops />
       <Newsletter />
     </Layout>
   )

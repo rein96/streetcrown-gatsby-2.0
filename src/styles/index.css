@@ -79,6 +79,24 @@ body{
   margin-bottom: 20px;
 }
 
+/* TEXT */
 .letter-spacing-1px{
   letter-spacing: 1px;
+}
+
+/* BORDERS */
+.border-bottom-white{
+  border-bottom: 1px solid white;
+}
+
+.border-top-white{
+  border-top: 1px solid white;
+}
+
+/* ETC */
+.row-helper{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
