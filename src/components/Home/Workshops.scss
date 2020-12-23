@@ -4,3 +4,12 @@
 		flex-direction: column;
   }
 }
+
+.header-location{
+    color: white;
+    text-align: center;
+    background-color: var(--red-ds);
+    border-radius: 8px 8px 0px 0px;
+    padding: 4px;
+    letter-spacing: 1px;
+}
