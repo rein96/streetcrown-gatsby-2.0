@@ -8,6 +8,7 @@ import SiteMetadata from "../components/SiteMetadata"
 import BeforeAfter from 'src/components/Home/BeforeAfter.js';
 import SectionTitle from 'src/components/shared/SectionTitle.js'
 import Workshops from 'src/components/Home/Workshops.js'
+import Footer from 'src/components/shared/Footer.js'
 import '../styles/index.css'
 
 const IndexPage = ({ data }) => {
@@ -25,6 +26,7 @@ const IndexPage = ({ data }) => {
       </div>
       <BeforeAfter />
       <Workshops />
+      <Footer />
       <Newsletter />
     </Layout>
   )

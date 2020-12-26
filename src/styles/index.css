@@ -14,6 +14,7 @@ body{
   --grey-ds : #E8E8E8; 
 }
 
+/* COLORS */
 .background-black-ds{
   background: var(--black-ds);
 }
@@ -24,6 +25,10 @@ body{
 
 .color-red-ds{
   color: var(--red-ds);
+}
+
+.svg-white{
+  filter: invert(92%) sepia(100%) saturate(0%) hue-rotate(202deg) brightness(106%) contrast(106%);
 }
 
 .flex-center-center{
