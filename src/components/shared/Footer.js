@@ -6,12 +6,12 @@ import './Footer.scss'
 
 function Footer() {
   return (
-    <footer className='footer-container container text-white'>
-      <div className='flex'>
-        <div className='footer-logo-container'>
-          <img src='streetcrownLogo.png' />
+    <footer className='footer-container container text-white border-top-white'>
+      <div className='flex items-center flex-col sm:flex-row'>
+        <div className='footer-logo-container py-6'>
+          <img src='streetcrownLogo.png' alt='streetcrown-logo'/>
         </div>
-        <div className='sub-footer-container px-6'>
+        <div className='sub-footer-container px-6 py-6'>
           <h4 className='footer-header-text'>JAKARTA</h4>
           <div className='icon-container flex items-center py-3'>
             <img src={whatsapp} alt='whatsapp' className='footer-icon svg-white' />
@@ -26,7 +26,7 @@ function Footer() {
             <span className='ml-4 text-sm'> Jl. Sunter Pulo Kecil No.18, Jakarta Utara</span>
           </div>
         </div>
-        <div className='sub-footer-container'>
+        <div className='sub-footer-container px-6 py-6'>
           <h4 className='footer-header-text'>BANDUNG</h4>
           <div className='icon-container flex items-center py-3'>
             <img src={whatsapp} alt='whatsapp' className='footer-icon svg-white' />

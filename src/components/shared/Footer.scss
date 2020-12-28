@@ -1,10 +1,17 @@
 .footer-container{
+  margin-top: 56px;
+  padding-top: 56px;
+  margin-bottom: 56px;
   .footer-header-text{
     border-bottom: 2px solid var(--grey-ds);
     letter-spacing: 1px;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
     font-size: 1.25rem;
+  }
+
+  .icon-container{
+    max-height: 52px;
   }
 
   .footer-icon{
